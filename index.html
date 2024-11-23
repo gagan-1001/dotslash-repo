@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AatmaNirbhar Khata</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="Login.css">
 </head>
 <body>
-    <h1>AatmaNirbhar Khata</h1>
+  <div class="container">
+    <!-- Left Section -->
+    <div class="left-section">
+      <div class="logo"><img src="logobg.png" alt="AatmaNirbhar Khata" height="150"></div>
+      <h1>Welcome Back!</h1>
+      <p>Sign in to access your account and explore amazing features.</p>
+      <form class="login-form">
+        <!-- Login Buttons -->
+        <!-- Email Login -->
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit" class="submit-btn">Sign In</button>
+    </form>
+    <p class="signup-link">Don't have an account? <a href="signup.html">Sign Up</a></p>
+    <div class="divider">OR</div>
+    <button type="button" class="social-btn google-btn">Login with Google</button>
+    <button type="button" class="social-btn twitter-btn">Login with Twitter</button>
+</div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+      <div class="image-container">
+        <img src="photo.avif" alt="Inspiring Image">
+      </div>
+      <blockquote>
+        <p>"The only way to do great work is to love what you do."</p>
+        <cite>- Steve Jobs</cite>
+      </blockquote>
+    </div>
+  </div>
 </body>
 </html>
